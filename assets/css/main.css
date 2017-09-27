@@ -1,1 +1,12 @@
 /* custom styles */
+body {
+	text-align: center;
+	color:white;
+	background-color: #6079a0;
+	background-image: url("https://wallpaperscraft.com/image/san_francisco_bridge_night_city_58133_1920x1080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+
+} 
