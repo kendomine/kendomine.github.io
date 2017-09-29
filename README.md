@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-# ${1:Project Name}
-TODO: Write a project description
+# ${1:Kenneth Domine Personal Website}
+Personal website for Kenneth Domine in order to showcase personal work and contact information
 ## Installation
-TODO: Describe the installation process
+Creating as I'm learning, improving weekly.
 ## Usage
 TODO: Write usage instructions
 ## Contributing
