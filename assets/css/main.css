@@ -2,11 +2,40 @@
 body {
 	text-align: center;
 	color:white;
-	background-color: #6079a0;
+	background-color: #060f20;
 	background-image: url("https://wallpaperscraft.com/image/san_francisco_bridge_night_city_58133_1920x1080.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left;
+    font-family: 'Nixie One', cursive;
+
 
 } 
+
+.column {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  width: 30%;
+}
+.column:last-child {
+  margin-right: 0;
+
+}
+html, body {
+ min-height: 100%;
+ min-wwidth: 100%;    
+}
+.tint {
+    z-index: 1;
+ height: 100%;
+width: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+background: rgba(0, 0, 0, 0.5);    
+}
+.whitecontent {
+ color: white;
+}
