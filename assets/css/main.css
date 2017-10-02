@@ -13,15 +13,18 @@ body {
 
 } 
 
-.column {
-  display: inline-block;
+.col {
+ 
   margin-right: 20px;
-  vertical-align: top;
+  vertical-align: bottom;
   width: 30%;
+  background-color: white;
+  padding: 10px 0px;
 }
-.column:last-child {
-  margin-right: 0;
 
+#side {
+  padding-bottom: 5px;
+  border:1px 1px solid white;
 }
 html, body {
  min-height: 100%;
@@ -52,6 +55,27 @@ a:hover
      cursor:pointer;  
 }
 
+.img-circle {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 200px;
+  height: 200px;
+  display: center;
+}
+#work {
+  float: left;
+}
 
+.contacts {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.portfolio {
+background: rgba(6, 15, 32, 0.5);
+color: white;
+
+}
 
 
